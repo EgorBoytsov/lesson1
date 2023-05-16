@@ -1,14 +1,14 @@
-dictionary = {
+weather_dict = {
     "city": "Москва",
     "temperature": "20", 
     "country": "Russia"
 }
-print(dictionary['city'])
-dictionary["temperature"] = int(dictionary["temperature"]) - 5
-print(dictionary)
+print(weather_dict['city'])
+weather_dict["temperature"] = str(int(weather_dict["temperature"]) - 5)
+print(weather_dict)
 
-print(dictionary.get("country"))
+print(weather_dict.get("country"))
 
-dictionary['date'] = '14.05.2023'
-print(dictionary)
-print(len(dictionary))
+weather_dict["date"] = "14.05.2023"
+print(weather_dict)
+print(len(weather_dict))

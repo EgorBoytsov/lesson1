@@ -1,7 +1,7 @@
 def get_summ(one, two, delimiter='&'):
     one = str(one).upper()
     two = str(two).upper()
-    return f'{one} {str(delimiter)} {two}'
+    return f'{one} {delimiter} {two}'
 
 
 one = 'Learn'
